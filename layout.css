@@ -1,0 +1,18 @@
+.btn-box{
+    height: 300px;
+    width: 350px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+   
+}
+input{
+    height: 50px;
+    width: 350px;
+    border: 2px solid;
+}
+ 
+ 
+ 

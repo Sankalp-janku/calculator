@@ -1,0 +1,47 @@
+.outer{
+    margin: 0 auto;
+    height: 550px;
+    width: 380px;
+    border:10px solid ;
+    border-radius: 2rem;
+}
+ 
+input{
+    width: 85%;
+    height: 50px;
+    border: 2px solid red;
+    margin: 20px;
+    border-radius: 2rem;
+}
+.btns-box{
+    height: 390px;
+    width: 89%;
+    border: 2px solid black;
+    margin: 22px 20px 0px 20px;
+    border-radius: 2rem;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
+   
+}
+.btn{
+    /* height: 20px;
+    width: 55px; */
+    grid-template-columns: auto auto auto;
+    margin: 55px 3px 0px 20px;
+    border-radius: 2rem;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 900;
+    font-size: larger;
+    background-color: orangered;
+}
+/* .btn:hover{
+    transform: rotateY('10deg');
+    border: 1px solid black;
+} */
+.add{
+grid-column-start: 0;
+grid-column-end: 4;
+}
+ 
